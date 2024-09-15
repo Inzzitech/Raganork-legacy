@@ -5,4 +5,5 @@ WORKDIR /skl/Raganork
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN npm install
+EXPOSE 3000
 CMD ["node", "index.js"]
